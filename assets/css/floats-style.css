@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.menu {
+	height: 100px;
+	background-color: #B2D6FF;
+	background-image: url(http://tusimagenesde.com/wp-content/uploads/2016/02/retro-1.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.sidebar {
+	height: 500px;
+	width: 350px;
+	background-color: #F09A9D;
+	background-image: url(http://www.comoyodsg.com/wp-content/uploads/2010/10/retrovintage28.jpg);
+	float: left;
+	border-radius: 15px;
+	margin-right:5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.content {
+	height: 650px;
+	width: 500px;
+	background-color: #F5CF8E;
+	float: left;
+	background-image: url(http://fc19.deviantart.com/fs20/f/2007/245/2/e/Retro_Style_by_MrAziz.png);
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+	margin: 5px 5px 5px 5px;
+}
+
+.column {
+	background-color:  #B2D6FF;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+/*	background-image: url(https://thumbs.dreamstime.com/z/fondo-retro-2507009.jpg);
+	background-position: center;
+	background-size: cover;*/
+}
+
+/*.column1 {
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+	background-image: url(http://4.bp.blogspot.com/_Syu9aTIvWEs/TMYKhUbSJDI/AAAAAAAAABY/-tjiPntKGuc/s1600/Retro_wallpaper_II_by_LogaN2k6.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.column2 {
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+	background-image: url(http://farm1.static.flickr.com/206/492228288_b4d319a00e.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.column3 {
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+	background-image: url(http://sm.ign.com/ign_es/screenshot/default/retro-console-games_kphv.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.column4 {
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+	overflow: scroll;
+	background-image: url();
+	background-position: center;
+	background-size: cover;
+}*/
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	border: 5px solid red;
+	background-color: #D6E9FE;
+	background-image: url(http://newevolutiondesigns.com/images/freebies/retro-wallpaper-1.jpg);
+	background-position: center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.clear:after {
+	content: " ";
+	clear: both;
+	/*height: 200px;
+	background-color: #D*/
+	display: block;
+}
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*border-radius: 25px;*/
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	/*background-color: #D6E9FE;*/
+	/*background-image: url();*/
+	background-position: center;
+	background-size: cover;
+	border: 30px solid white;
+}
+
+.username {
+	/*border: 2px ;*/
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	/*overflow: hidden;*/
+	border: 2px solid blue;
+	float: hidden;
+}
